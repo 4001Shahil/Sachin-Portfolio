@@ -1,0 +1,13 @@
+INSTRUCTIONS TO ADD YOUR PROFILE PHOTO:
+==========================================
+
+1. Save your profile photo as: profile.jpg
+2. Place it in this folder: c:\Users\hp\OneDrive\Desktop\Sachin Portfolio\public\
+3. The photo should be named exactly: profile.jpg
+
+Your portfolio is already configured to display the photo at /profile.jpg
+
+Alternative: You can also save it as profile.png and update the reference in:
+- src/components/Hero.jsx (change /profile.jpg to /profile.png)
+
+The photo will automatically appear in the Hero section with a beautiful glowing animation!

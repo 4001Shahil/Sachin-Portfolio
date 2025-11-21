@@ -1,0 +1,113 @@
+.about {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+  background: linear-gradient(90deg, #6c63ff, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.about-content h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #b0b0b0;
+  margin-bottom: 20px;
+}
+
+.about-details {
+  margin: 30px 0;
+}
+
+.btn-contact {
+  display: inline-block;
+  padding: 14px 32px;
+  background: linear-gradient(135deg, #6c63ff, #5a52d5);
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(108, 99, 255, 0.3);
+  margin-top: 20px;
+}
+
+.btn-contact:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(108, 99, 255, 0.4);
+}
+
+.skills-container h3 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+.skill-item {
+  background: rgba(108, 99, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 15px 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid rgba(108, 99, 255, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.skill-item:hover {
+  background: rgba(108, 99, 255, 0.2);
+  border-color: #6c63ff;
+  box-shadow: 0 8px 20px rgba(108, 99, 255, 0.3);
+}
+
+@media screen and (max-width: 1024px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .section-title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .section-title {
+    font-size: 28px;
+  }
+
+  .about-content h3 {
+    font-size: 24px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+  }
+}
