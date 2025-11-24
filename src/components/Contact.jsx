@@ -70,7 +70,7 @@ const Contact = () => {
                 <FaEnvelope size={24} />
                 <div>
                   <h4>Email</h4>
-                  <p>sachin@example.com</p>
+                  <p>sksoffical@gmail.com</p>
                 </div>
               </div>
               
@@ -78,7 +78,7 @@ const Contact = () => {
                 <FaPhone size={24} />
                 <div>
                   <h4>Phone</h4>
-                  <p>+91 XXXXX XXXXX</p>
+                  <p>+91 9102184510</p>
                 </div>
               </div>
               
