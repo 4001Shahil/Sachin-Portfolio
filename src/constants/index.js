@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "sachin@example.com", // Update with actual email
   github: "https://github.com/sachinkumarsingh", // Update with actual GitHub
   linkedin: "https://www.linkedin.com/in/sachin-kumar-singh-62088428b",
-  resumeUrl: "/resume.pdf" // Add your resume PDF to public folder
+  resumeUrl: "https://blob8765.blob.core.windows.net/resume/Sachin.pdf"
 };
 
 export const services = [
